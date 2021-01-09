@@ -80,7 +80,6 @@ namespace BackToTheFutureV.TimeMachineClasses.Handlers.BaseHandlers
         public SetStopTracks SetStopTracks;
         public SetRefuel SetRefuel;
         public SetPedAI StartDriverAI;
-        public SetWheelie SetWheelie;
         public SetEngineStall SetEngineStall;
         public StartLightningStrike StartLightningStrike;
         public SimulateInputDate SimulateInputDate;

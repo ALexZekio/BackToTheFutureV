@@ -34,7 +34,6 @@ namespace BackToTheFutureV.TimeMachineClasses.Handlers
 
         public static void TimeChanged(DateTime time)
         {
-            RogersSierraRailway.TrainManager.RogersSierraList.ForEach(x => x.Delete());                
             TimeMachineHandler.ExistenceCheck(time);
             RemoteTimeMachineHandler.ExistenceCheck(time);
 

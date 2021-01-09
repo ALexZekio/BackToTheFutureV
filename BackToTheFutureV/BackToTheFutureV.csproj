@@ -93,7 +93,6 @@
     <Compile Include="Menu\CustomMenu.cs" />
     <Compile Include="Menu\ControlsMenu.cs" />
     <Compile Include="Menu\OutatimeMenu.cs" />
-    <Compile Include="Menu\TrainMissionMenu.cs" />
     <Compile Include="Menu\PresetsMenu.cs" />
     <Compile Include="Menu\TCDMenu.cs" />
     <Compile Include="Menu\MainMenu.cs" />
@@ -111,7 +110,6 @@
     <Compile Include="Settings\ModControls.cs" />
     <Compile Include="Story\Mission.cs" />
     <Compile Include="Story\MissionHandler.cs" />
-    <Compile Include="Story\Missions\TrainMission.cs" />
     <Compile Include="TimeMachineClasses\Handlers\BaseHandlers\BaseProperties.cs" />
     <Compile Include="TimeMachineClasses\Handlers\BaseHandlers\EventsHandler.cs" />
     <Compile Include="TimeMachineClasses\Handlers\BaseHandlers\PlayersHandler.cs" />
@@ -188,16 +186,14 @@
       <Project>{e52db215-0aa9-453a-b5f3-91f3ff35c1d9}</Project>
       <Name>KlangRageAudioLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RogerSierra\RogersSierraRailway.vbproj">
-      <Project>{ef32b843-71f4-4af6-93e3-bec5f727c9a3}</Project>
-      <Name>RogersSierraRailway</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TimeCircuits\TimeCircuits.Core\TimeCircuits.Core.csproj">
       <Project>{b32480f2-767c-4426-afa1-ff9511c612d9}</Project>
       <Name>TimeCircuits.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Story\Missions\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>IF NOT "%25GTAPath%25" == "" (

@@ -46,7 +46,6 @@ namespace BackToTheFutureV.TimeMachineClasses.Handlers.BaseHandlers
         public bool IsPhotoModeOn { get; set; }
         public bool IsOnTracks { get; set; }
         public bool WasOnTracks { get; set; }
-        public bool IsAttachedToRogersSierra { get; set; }
         public bool HasBeenStruckByLightning { get; set; }
         public bool PhotoWormholeActive { get; set; }
         public bool PhotoGlowingCoilsActive { get; set; }
@@ -84,8 +83,6 @@ namespace BackToTheFutureV.TimeMachineClasses.Handlers.BaseHandlers
             ret.IsEngineStalling = false;
 
             ret.IsOnTracks = false;
-
-            ret.IsAttachedToRogersSierra = false;
 
             ret.TimeTravelPhase = TimeTravelPhase.Completed;
 
