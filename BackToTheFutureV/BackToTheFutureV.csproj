@@ -103,7 +103,7 @@
     <Compile Include="Menu\SoundsSettingsMenu.cs" />
     <Compile Include="Menu\SettingsMenu.cs" />
     <Compile Include="Menu\TimeMachineMenu.cs" />
-    <Compile Include="Utility\NetworkHUD.cs" />
+    <Compile Include="Utility\RemoteHUD.cs" />
     <Compile Include="Players\FireTrail.cs" />
     <Compile Include="Players\FireTrailsHandler.cs" />
     <Compile Include="Players\SparkPlayer.cs" />
@@ -173,7 +173,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <MonoGameContentReference Include="..\TimeCircuits\TimeCircuits.Core\Content\Content.mgcb">
+    <MonoGameContentReference Include="..\TimeCircuits\BackToTheFutureV.HUD.Core\Content\Content.mgcb">
       <Link>Content\Content.mgcb</Link>
     </MonoGameContentReference>
   </ItemGroup>
@@ -186,7 +186,7 @@
       <Project>{e52db215-0aa9-453a-b5f3-91f3ff35c1d9}</Project>
       <Name>KlangRageAudioLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TimeCircuits\TimeCircuits.Core\TimeCircuits.Core.csproj">
+    <ProjectReference Include="..\BackToTheFutureV.HUD\BackToTheFutureV.HUD.Core\BackToTheFutureV.HUD.Core.csproj">
       <Project>{b32480f2-767c-4426-afa1-ff9511c612d9}</Project>
       <Name>TimeCircuits.Core</Name>
     </ProjectReference>

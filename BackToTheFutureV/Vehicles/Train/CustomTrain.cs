@@ -1,17 +1,8 @@
-﻿using BackToTheFutureV.GUI;
-using BackToTheFutureV.Players;
-using BackToTheFutureV.Story;
-using BackToTheFutureV.TimeMachineClasses;
-using BackToTheFutureV.Utility;
-using FusionLibrary;
 using FusionLibrary.Extensions;
 using GTA;
 using GTA.Math;
 using GTA.Native;
-using GTA.UI;
 using System;
-using System.Collections.Generic;
-using static FusionLibrary.Enums;
 
 namespace BackToTheFutureV.Utility
 {
